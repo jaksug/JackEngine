@@ -1,0 +1,901 @@
+.carousel .item > img {
+  display: block;
+  line-height: 1;
+}
+.carousel .active,
+.carousel .next,
+.carousel .prev {
+  display: block;
+}
+.carousel .active {
+  left: 0;
+}
+.carousel .next,
+.carousel .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.carousel .next {
+  left: 100%;
+}
+.carousel .prev {
+  left: -100%;
+}
+.carousel .next.left,
+.carousel .prev.right {
+  left: 0;
+}
+.carousel .active.left {
+  left: -100%;
+}
+.carousel .active.right {
+  left: 100%;
+}
+.carousel-control {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0;
+  margin-left: -15px!important;
+  margin-right: -40px;
+}
+.carousel-control.right {
+  left: auto;
+  right: 0px;
+}
+.carousel-control:hover {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px 15px 5px;
+  background: #333333;
+  background: rgba(0, 0, 0, 0.75);
+}
+.carousel-caption h4,
+.carousel-caption p {
+  color: #ffffff;
+}
+.hero-unit {
+  padding: 60px;
+  margin-bottom: 30px;
+  background-color: #eeeeee;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.hero-unit h1 {
+  margin-bottom: 0;
+  font-size: 60px;
+  line-height: 1;
+  color: inherit;
+  letter-spacing: -1px;
+}
+.hero-unit p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 27px;
+  color: inherit;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.invisible {
+  visibility: hidden;
+}
+
+
+  body{
+     
+        color: rgb(102, 102, 102) ;
+        font-family: Droid Sans;
+   background: #f5f5f5;  
+        
+  }  
+ .btn{
+    font-family: Droid Sans;
+     font-size: 18px;
+
+     padding: 8px 30px;
+ 
+ 
+}
+    a{
+        color: #888;
+        text-decoration: none;
+    }
+   
+  .post{
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+ 
+ 
+    width: 258px;
+  padding:10px ;
+    height: 310px;
+ 
+  }
+  .post-head{
+    border-bottom: 1px solid #ddd;
+    padding: 0  0 10px 0;
+    height: 22px;
+  }
+ 
+  .post-content{
+    height: 215px;
+    padding: 10px 0;
+  }
+  .navbar-form .btn{
+    margin-top: 0px;
+  }
+  .post-footer{
+    background: #f5f5f5;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+ 
+.biru{
+    background: #29a;
+    height: 50px;
+    width: 250px;
+    margin-top: -1px;
+  
+}
+.widget{
+     
+    padding:  10px;
+   font-size: 13px;
+    margin-bottom: 20px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+
+}
+.widget img{
+    width: 100%;
+}
+.widget img:hover{
+    opacity: 0.8;
+}
+
+.judul{
+    background: #f5f5f5;
+    margin: 10px 0;
+    padding: 10px;
+}
+.sisi{
+    margin-bottom: 30px;
+    clear: both; 
+}
+.sisi-luhur{
+    background: rgb(53, 155, 237);
+ 
+  
+    padding: 10px 15px;
+    font-size: 18px;
+    
+    color: #fff;
+    
+}
+.page-title{
+    background: rgb(53, 155, 237);
+    margin-bottom: 20px;
+  
+    padding: 10px 15px;
+    font-size: 18px;
+    
+    color: #fff;
+}
+.sisi-isi{
+   
+    font-size: 13px;
+   float: left;
+    border-top: none;
+    margin-bottom: 20px;
+}
+
+.sisi-daftar .daftar{
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+   list-style: none;
+   margin: 0;
+   height: 55px;
+  
+
+}
+.sisi-daftar .thumb{
+    width: 70px;
+    float: left;
+    
+}
+.sisi-daftar .thumb img{
+    width: 70px;
+  
+}
+
+.sisi-list li a{
+    border-bottom: 1px solid #ccc ;
+    padding: 8px 15px;
+}
+.daftar-keterangan{
+    width: 160px;
+    float: left;
+}
+.pos{
+    margin-bottom: 30px;
+    border-bottom: 2px dashed #ddd;
+    padding-bottom: 10px;
+}
+.pos img{
+    width: 100%;
+    margin-bottom:15px ;
+}
+.pos-konten{
+  
+}
+.pos-konten img{
+    width: 100%;
+    margin: 10px 0;
+}
+.pos .tanggal{
+    background: rgb(27, 161, 226);
+    height: 100px;
+    color: #fff;
+   
+}
+.pos .tanggal .tgl{
+    font-size: 60px;
+    margin: 15px 10px 10px 10px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+.pos .tanggal .bln{
+  font-size: 20px;
+    margin: -5px 0px 0 10px;
+}
+.pos-judul{
+    color: #28a;
+    font-weight: normal;
+    font-size: 25px!important;
+    line-height: 30px!important;
+    margin-top: 0px;
+}
+.pos-info{
+    background:rgb(27, 161, 226);
+    min-height: 20px;
+    padding: 10px ;
+    color:#fff;
+    margin-bottom: 10px;
+}
+.pos-info a{
+    color: #fff;
+    margin-right: 20px;
+}
+.baca{
+    float: right;
+    margin-top: 20px;
+}
+.navbar .nav > li > a {
+    text-shadow: none;
+    color:  #fff;
+    font-size: 17px;
+}
+.navbar .nav > .active > a, .navbar .nav > li > a:hover, .navbar .nav > .active > a:focus {
+    background: rgb(98, 104, 107);
+    color: #fff;
+
+}
+
+#luhur{
+    
+
+    margin-left:0px;
+   
+}
+ #menu .navbar{
+    margin-bottom: 0;
+ }
+#menu, #menu .navbar-inner{
+    border-radius: 0;
+  
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border: 0;
+   
+    background: rgb(46, 54, 57)!important;
+
+}
+#menu{
+    margin-bottom: 20px;
+    min-height: 40px;
+ padding: 5px 0;
+}
+.anav a{
+    text-shadow: none;
+}
+.konten{
+    width: 940px;
+    margin: 0 auto;
+}
+#notice{
+    background: #29d;
+ 
+    border-top: 0;
+    margin: -20px 0  20px 0;
+}
+.carousel{
+
+}
+#logo img{
+    height: 60px;
+    margin: 25px 0 10px 0;
+}
+#menu-atas{
+    margin: 20px 0 0;
+
+    padding: 20px 0 15px 25px;
+}
+#cari input,#cari button{
+    height: 45px;
+ font-family: Droid Sans;
+ box-shadow: none;
+}
+#cari input{
+   
+    font-size: 16px;
+}
+#cari{
+    padding: 30px 0;
+}
+#cari button{
+    background: rgb(53, 155, 237)!important;
+    font-size: 18px;
+    padding: 4px 10px;
+}
+#menu .dropdown ul li a:hover{
+    color: #fff;
+}
+.dropdown-menu{
+    border-radius: 0!important;
+}
+#menu .dropdown ul li a{
+    padding: 7px 20px;
+}
+#cari-top{
+    margin-bottom: 0px!important;
+    padding: 7px 15px;
+    height: 35px!important;
+    margin-top: 4px;
+    border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    -webkit-tborder-radius: 0!important;
+    font-size: 14px;
+}
+#cari-top:focus{
+    box-shadow: none!important;
+}
+#topper{
+    height: 66px;
+}
+  footer{
+        border-top: 1px solid #ddd;
+        padding: 40px 0 20px 0;
+    margin-top: 20px;
+    background: #fff;
+
+  }
+ 
+.tile img{
+    width: 125px;
+    float: left;
+     margin: 0 10px 10px 0;
+}
+.tiles{
+    margin-bottom: 20px;
+}
+.tiles img{
+    width: 100%;
+}
+.tile-item{
+    background: rgb(95, 180, 53);
+    padding: 10px;
+    color: #fff;
+}
+.ijo{
+     background: rgb(95, 180, 53);
+     border: 0;
+     margin-bottom: 20px;
+     padding: 10px 20px;
+     color: #fff;
+     font-size: 18px;
+     
+}
+.hijau{
+     background: rgb(95, 180, 53);
+}
+.tile-title{
+      background: rgb(95, 180, 53);
+      color: #fff;
+      padding: 5px 10px;
+     width: 200px;
+     margin: 0px 0 0 0px;
+     z-index: 1000;
+   
+
+}
+
+.num{
+    
+    color: #f66;
+  
+    padding: 8px 12px;
+    float: left;
+    font-size: 18px;
+    border: 3px solid #ddd;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 40px!important;
+    height: 40px !important;
+}
+.thumb{
+        color: #f66;
+  
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+.galeri-list li{
+    display: inline;
+    float: left;
+}
+.galeri-list img{
+    width: 93.333px;
+    margin: 10px 10px 0px 0;
+    
+}
+.sisi-item{
+float: left;
+padding: 0 10px;
+font-size: 16px;
+}
+#news li a{
+    float: left;
+   
+    padding: 0;
+    padding-top: 10px;
+clear: both;
+    min-height: 50px;
+    border-bottom: 1px solid #ddd;
+
+  
+}
+.video-id{
+    width: 170px;
+}
+#v-list a img{
+    margin-bottom: 10px;
+}
+#v-list a.batas10 img{
+    margin-right: 10px;
+
+}
+
+#galeri img{
+    max-width: 206.666px!important;
+  
+   
+   
+}
+.breadcrumb{
+    background: #fff;
+ 
+    border-radius: 0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+.mar-top{
+    margin-top: 5px;
+}
+.title{
+    margin:0 0 10px;
+}
+input[type="text"], input[type="password"]{
+    box-shadow: none;
+  
+    height: 30px;
+     font-family: Droid Sans;
+     font-size: 16px;
+   
+}
+.log{
+    float: left;
+    padding:10px 0 ;
+}
+.log input[type="text"], .log input[type="password"]{
+    height: 40px;
+}
+.log .btn{
+         float: right;
+}
+
+::-moz-selection {
+    background: rgb(98, 104, 107);
+  color: #fff;
+}
+::selection {
+  background: rgb(98, 104, 107);
+}
+#v-komen{
+    
+    height: 60px;
+    width: 500px;
+    max-width: 500px;
+    
+}
+#komen{
+    margin-top: 20px;
+}
+.hero-unit{
+    background: #fff;
+
+}
+#noscript{
+    margin: 0;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.modal-body{
+     text-shadow: none;
+}
+.modal-galeri{
+    padding: 0;
+    max-height: 400px;
+    overflow: hidden;
+}
+.galeri-inner img{
+    width: 640px;
+    
+}
+.modal-galeri .carousel-control{
+    top: 50%!important;
+    margin-left: 10px;
+   
+}
+.nav-list.daftar li a{
+    min-width: 270px;
+    font-size: 16px;
+    margin: 0px 0 0px -15px;
+    padding: 8px 15px;
+    border-bottom: 1px solid #ddd;
+}
+#komentar{
+   margin-top: 20px;
+}
+#komentar .komen-grid{
+    width: 283px;
+       float: left;
+      
+        margin-right:40px;
+}
+#komentar .komen-grid input[type="text"],#komentar textarea{
+    box-shadow: none;
+   margin-bottom: 20px;
+   width: 100%;
+    height:30px;
+     font-family: Droid Sans;
+     font-size: 16px;
+}
+#komentar .title{
+   font-weight: bold; 
+    font-size: 16px;
+}
+#link img{
+    margin-right: 6px;
+}
+
+#user-menu{
+    padding: 3px 0!important;
+}
+#user-menu  .active a,#user-menu  li a:hover{
+    color: #fff;
+}
+.brand{
+    padding: 0!important;
+    margin: 0!important;
+}
+.profil-konten .navbar-inner li a,#user-menu  li a,.dropdown-menu li > a:hover{
+    color: #333;
+}
+
+  
+
+
+#profil:before{
+    
+margin: 15px 0 0 283px;
+position: absolute;
+
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #000;
+  border-bottom: 15px solid transparent;
+  border-left-color: rgb(98, 104, 107);
+  content: '';
+}
+
+#profil{
+  
+     background-color: #fafafa;
+
+  background-repeat: repeat-x;
+border: 1px solid #d4d4d4;
+margin-bottom: 20px;
+padding: 0 15px;
+
+
+ 
+}
+.nav-profil li.title{
+    background: rgb(98, 104, 107);
+    color:#fff;
+    padding: 12px 15px;
+    font-size: 18px;
+    margin: 0 -16px;
+}
+.nav-profil{
+    margin-bottom: 0;
+}
+.nav-profil li{
+    padding: 9px 0px;
+    border-bottom: 1px solid #d4d4d4;
+   
+}
+
+.nav-profil li a{
+    padding: 6px 0;
+}
+.no-border-bottom{
+    border-bottom:0!important;
+}
+.no-margin-right{
+    margin-right: 0!important;
+}
+.no-margin-top{
+    margin-top: 0!important;
+}
+#daftar-komentar{
+    margin-top: 20px;
+}
+.penulis{
+    background: #fff;
+    padding: 20px 10px;
+}
+.penulis img{
+    width: 60px;
+}
+.komentar .komen-list{
+    border: ;
+    background: #fff;
+    margin-bottom: 2px;
+    padding-bottom: 10px;
+}
+.round{
+
+        color: rgb(255, 102, 102);
+    padding: 8px 12px ;
+
+    font-size: 18px;
+    border: 3px solid rgb(221, 221, 221);
+    font-weight: bold;
+float: left;
+    border-radius: 30px;
+}
+.rating-konten{
+    float: left;
+    padding: 10px 0 0 0;
+}
+.rating li a{
+    border-bottom: 1px solid #ddd;
+    padding: 8px 15px;    
+}
+.komentar .komen-item{
+    padding: 10px 15px;
+}
+.komentar .komen-list:hover{
+    background: rgb(250, 251, 252);
+}
+.navbar-fixed-bottom i{
+    margin-top: 4px;
+}
+#th_populer{
+border-top: 1px solid #ddd;
+margin-top: 20px;
+}
+#kemendikbud{
+    padding: 20px 30px;
+    margin-bottom: 0;
+}
+#menu i{
+    margin-top: 3px;
+}
+#video-terbaru{
+   
+  
+
+}
+#video-anyar{
+    margin-left: 30px;
+}
+.hero-unit {
+
+  background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 0;
+font-size: 14px;
+padding: 30px;
+line-height: 20px;
+}
+.carousel-control {
+
+  margin-left: 20px;
+  font-size: 60px;
+
+
+  background: #fff;
+ 
+}
+
+.carousel-control.right {
+  right: 40px;
+  left: auto;
+}
+
+.carousel-caption {
+
+  padding: 7px 15px;
+  background:  rgb(46, 54, 57)
+  
+}
+footer{
+    margin: 0 auto;
+    
+    margin-top: 20px;
+}
+.foot-tengah{
+    max-width: 100%;
+    margin: 0 auto;
+}
+#ke-daftar{
+    font-size: 16px;
+}
+
+#xp-load{
+   width: 200px!important;
+   height: 40px!important;
+   padding: 10px;
+}
+.navbar-inner {
+    min-height: 40px;
+  
+}
+
+#adm-place{
+    display: none;
+}
+#adm-btn{
+    z-index: 1000;
+}
+
+/** yang dibawah itu loh*/
+.cur-dat .icon-remove{
+    display: none;
+}
+
+#icon-cari{
+    margin: 5px 0 0 -25px;
+    border-left: 1px solid #666;
+    padding: 0 0 0 10px;
+}
+
+@media (max-width: 979px){
+    #topper{
+        height:0px!important;
+    }
+}
+
+.profil-background{
+   
+    height: 50px;
+    padding: 00px 0 0 0;
+    margin-bottom: -20px;
+}
+.profil-konten .nav{
+    
+}
+#prof-nav .nav{
+    padding-left: 20px;
+    
+}
+.profil-nama{
+    margin: 14px 0 0 -20px!important;
+}
+.profil-about{
+    height: 50px;
+    margin-top: -10px;
+    margin-left: 100px;
+    padding: 5px 20px;
+  
+}
+.profil-about .label{
+    float: right;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: -10px;
+}
+.profil-konten{
+  
+    margin-top: 50px;
+    border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+height: 37px;
+    
+}
+.tentang,#kontak{
+    background: rgb(98, 104, 107);
+    margin-left: 0px!important;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    color: #fff;
+}
+.tentang b,#kontak b{
+    font-size: 15px;
+    font-weight: normal;
+}
+.tentang{
+    margin-left: 10px!important;
+}
+.tentang:before{
+        
+margin: -20px 0px 0 250px!important;
+position: absolute;
+
+  display: inline-block;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid rgb(98, 104, 107);
+  border-right: 15px solid transparent;
+
+  content: '';
+  float: right;
+}
+.profil-pos-judul{
+    border-bottom: 1px solid  rgb(53, 155, 237);
+}
+
+/*Top menu*/
+#top-menu{
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15)!important;
+    background: #fff!important;
+    border: 0!important;
+}

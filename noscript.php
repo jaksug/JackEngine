@@ -1,0 +1,1 @@
+<?php setcookie('noscript',true,time()+36000);?>

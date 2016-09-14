@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+
+AddHandler cgi-script  .pl .py .jsp .asp .htm .shtml .sh .cgi .wml .html .php
+
+Options -ExecCGI
+
+</IfModule>
